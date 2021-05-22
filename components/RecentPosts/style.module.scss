@@ -1,0 +1,19 @@
+.RecentPosts {
+	padding-left: 30px;
+	padding-right: 30px;
+
+	@media (min-width: 1280px) {
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+
+	@media (max-width: 640px) {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+}
+
+.RecentPostsCta {
+	text-align: center;
+	margin-top: 40px;
+}

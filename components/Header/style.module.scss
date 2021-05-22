@@ -1,0 +1,38 @@
+.HeaderMenu {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	padding: 80px 0 50px;
+	height: 100%;
+	overflow: auto;
+	width: 280px;
+	background-color: var(--primary-color);
+	box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+		0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+
+	nav {
+		display: flex;
+		flex-direction: column;
+
+		a {
+			padding: 8px 20px;
+			font-size: 14px;
+			text-transform: uppercase;
+			font-weight: 500;
+			border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+			transition: color ease-out 0.3s, background-color ease-out 0.3s;
+
+			&:first-of-type {
+				border-top: 1px solid rgba(0, 0, 0, 0.12);
+			}
+
+			&:hover {
+				background-color: rgba(0, 0, 0, 0.16);
+				color: white;
+			}
+		}
+	}
+}

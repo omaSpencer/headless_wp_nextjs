@@ -1,0 +1,38 @@
+.MuiAppBar-positionFixed {
+	left: 0 !important;
+	z-index: 9 !important;
+	color: white !important;
+	max-width: 100vw;
+}
+
+.MuiContainer-maxWidthLg {
+	max-width: 1440px !important;
+}
+
+.MuiPaginationItem-textSecondary.Mui-selected {
+	color: white !important;
+}
+
+.MuiPaginationItem-root {
+	font-size: 0.9rem !important;
+}
+
+.MuiGrid-grid-sm-12 {
+	@media (max-width: 599px) {
+		flex-basis: 100%;
+	}
+}
+
+.MuiTypography-h3 {
+	@media (max-width: 599px) {
+		font-size: 2.4rem !important;
+	}
+}
+
+.MuiPaper-rounded {
+	border-radius: 0 !important;
+}
+
+.MuiIconButton-label input[type='checkbox'] {
+	display: none !important;
+}

@@ -1,0 +1,27 @@
+.Page {
+	padding-top: var(--appbar-height);
+	color: var(--color-dark);
+}
+
+h1.PageTitle {
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.PageHeader {
+	margin-bottom: 40px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid var(--color-light);
+}
+
+.PageDate {
+	display: flex;
+	align-items: center;
+	font-size: 13px;
+	font-weight: 500;
+
+	svg {
+		margin-right: 10px;
+	}
+}

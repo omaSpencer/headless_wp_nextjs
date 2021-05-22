@@ -1,0 +1,47 @@
+.FileUpload {
+	position: relative;
+	margin-bottom: 30px;
+
+	input[type='file'] {
+		display: none;
+	}
+}
+
+.FileActions {
+	display: flex;
+	align-items: center;
+}
+
+.FileUploadBtn {
+	display: inline-block;
+	padding: 8px 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	color: white;
+	background-color: var(--secondary-color);
+	cursor: pointer;
+	transition: all ease 0.3s;
+
+	&:hover {
+		background-color: darken(rgb(226, 125, 95), 15%);
+	}
+}
+
+.FileName {
+	position: absolute;
+	top: calc(100% + 5px);
+	left: 0;
+	width: 100%;
+	font-size: 12px;
+	color: var(--color-dark);
+}
+
+.FilePreview {
+	display: block;
+	margin-top: 10px;
+
+	img {
+		object-fit: cover;
+	}
+}

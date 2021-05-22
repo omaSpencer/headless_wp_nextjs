@@ -1,0 +1,44 @@
+.ContactUs {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: 50px 24px;
+
+	@media (max-width: 768px) {
+		flex-direction: column;
+		padding: 25px 10px;
+	}
+}
+
+.ContactUsTitle {
+	margin-bottom: 40px !important;
+
+	@media (max-width: 360px) {
+		font-size: 2.8rem !important;
+	}
+}
+
+.ContactUsInner {
+	position: relative;
+	z-index: 2;
+	flex-basis: 50%;
+	padding-right: 30px;
+
+	@media (max-width: 768px) {
+		padding: 25px;
+		flex-basis: auto;
+		width: 100%;
+		background-color: rgba(255, 255, 255, 0.8);
+		box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+	}
+}
+
+.ContactUsIllustration {
+	flex: 1;
+
+	@media (max-width: 768px) {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+}

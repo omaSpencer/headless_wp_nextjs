@@ -1,0 +1,111 @@
+.Content {
+	padding-bottom: 20px;
+
+	> * {
+		margin-bottom: 20px;
+	}
+
+	blockquote,
+	q {
+		border-left: 4px solid var(--primary-color);
+		padding: 10px;
+		font-size: 25px;
+		font-weight: 300;
+		font-style: italic;
+
+		p {
+			display: inline;
+			padding: 5px;
+			line-height: 2;
+			background: linear-gradient(var(--primary-color), var(--primary-color));
+			background-position: 0% 100%;
+			background-repeat: no-repeat;
+			background-size: 100% 2px;
+		}
+	}
+
+	table {
+		width: 100%;
+		border-collapse: collapse;
+
+		td,
+		th {
+			border: 1px solid var(--secondary-color);
+			padding: 0.5em 0.75em;
+			text-align: center;
+		}
+	}
+
+	dl {
+		dt {
+			margin-bottom: 5px;
+		}
+
+		dd {
+			margin-left: 20px;
+			margin-bottom: 20px;
+		}
+	}
+
+	ul,
+	ol {
+		margin-left: 25px;
+
+		> li {
+			margin-bottom: 20px;
+
+			ul li,
+			ol li {
+				margin-top: 20px;
+			}
+		}
+	}
+
+	p a,
+	li a {
+		color: var(--secondary-color);
+
+		&:hover {
+			text-decoration: underline;
+			color: var(--primary-color);
+		}
+	}
+
+	cite {
+		font-size: 14px;
+	}
+
+	code,
+	pre,
+	var {
+		background: #f4f4f4;
+		border: 1px solid #ddd;
+		border-left: 3px solid #f36d33;
+		color: #666;
+		page-break-inside: avoid;
+		font-family: monospace;
+		font-size: 15px;
+		line-height: 1.6;
+		max-width: 100%;
+		overflow: auto;
+		padding: 1em 1.5em;
+		display: block;
+		word-wrap: break-word;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	figure {
+		text-align: center;
+
+		figcaption {
+			font-size: 12px;
+			text-transform: uppercase;
+			font-style: italic;
+		}
+
+		ul {
+			margin-left: 0;
+		}
+	}
+}

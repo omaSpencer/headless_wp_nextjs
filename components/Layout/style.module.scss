@@ -1,0 +1,13 @@
+.Layout {
+	margin-top: var(--appbar-height);
+	margin-bottom: 60px;
+	min-height: 70vh;
+
+	@media (min-width: 1280px) {
+		margin-top: calc(var(--appbar-height) + 20px);
+	}
+
+	@media (max-width: 768px) {
+		min-height: 300px;
+	}
+}

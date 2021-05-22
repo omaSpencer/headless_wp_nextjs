@@ -1,0 +1,29 @@
+.Form {
+	form {
+		max-width: 470px;
+	}
+}
+
+.FormRow {
+	margin-bottom: 20px;
+
+	> * {
+		width: 100%;
+	}
+}
+
+.FormSubmit {
+	color: white !important;
+	margin-top: 40px !important;
+}
+
+.CheckboxLabel {
+	@media (max-width: 360px) {
+		line-height: 1.15;
+		font-size: 14px;
+	}
+
+	a {
+		color: var(--primary-color);
+	}
+}

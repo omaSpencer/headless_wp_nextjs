@@ -1,0 +1,33 @@
+.SocialLinks {
+	margin-top: auto;
+	padding-bottom: 20px;
+	padding-top: 40px;
+
+	ul {
+		display: flex;
+		justify-content: center;
+		list-style: none;
+
+		li {
+			margin: 0 10px;
+
+			a:hover svg {
+				transform: scale(1.2);
+				path {
+					fill: var(--secondary-color);
+				}
+			}
+
+			svg {
+				width: 28px;
+				height: 28px;
+				transition: transform ease-out 0.3s;
+
+				path {
+					fill: white;
+					transition: fill ease-out 0.3s;
+				}
+			}
+		}
+	}
+}
